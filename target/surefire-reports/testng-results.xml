@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Page Object Model" duration-ms="18160" started-at="2021-06-05T07:53:35Z" finished-at="2021-06-05T07:53:54Z">
+    <groups>
+    </groups>
+    <test name="LoginTest" duration-ms="2501" started-at="2021-06-05T07:53:35Z" finished-at="2021-06-05T07:53:38Z">
+      <class name="com.w2a.testcases.LoginTest">
+        <test-method status="PASS" signature="loginTest(java.util.Hashtable)[pri:0, instance:com.w2a.testcases.LoginTest@6e9319f]" name="loginTest" duration-ms="1936" started-at="2021-06-05T07:53:35Z" data-provider="dp" finished-at="2021-06-05T07:53:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=Muthi@1234, userName=pythontestshady@gmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+      </class> <!-- com.w2a.testcases.LoginTest -->
+    </test> <!-- LoginTest -->
+    <test name="CreateAccountTest" duration-ms="15635" started-at="2021-06-05T07:53:38Z" finished-at="2021-06-05T07:53:54Z">
+      <class name="com.w2a.testcases.LoginTest">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.w2a.testcases.LoginTest@6e9319f]" name="tearDown" is-config="true" duration-ms="2043" started-at="2021-06-05T07:53:54Z" finished-at="2021-06-05T07:53:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.w2a.testcases.LoginTest -->
+      <class name="com.w2a.testcases.CreateAccountTest">
+        <test-method status="PASS" signature="createAccountTest(java.util.Hashtable)[pri:0, instance:com.w2a.testcases.CreateAccountTest@6bab2585]" name="createAccountTest" duration-ms="15555" started-at="2021-06-05T07:53:38Z" data-provider="dp" finished-at="2021-06-05T07:53:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{accountName=Python Test}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createAccountTest -->
+      </class> <!-- com.w2a.testcases.CreateAccountTest -->
+    </test> <!-- CreateAccountTest -->
+  </suite> <!-- Page Object Model -->
+</testng-results>
